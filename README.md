@@ -52,7 +52,7 @@ Now we should be all set! Run the application:
 npm start
 ```
 
-Your application should now be running at [http://localhost:3000](http://localhost:3000). You will
+Your application should now be running at [http://localhost:5000](http://localhost:5000). You will
 be prompted to test and choose your microphone and camera. On desktop browsers, your choices will
 be saved. _On mobile browsers, you will be asked to test and choose your microphone and camera every
 time you load the application in order to make sure they are not reserved by another application_.
@@ -71,14 +71,8 @@ You can use [ngrok](https://ngrok.com/) to try your application
 on different devices by creating a secure tunnel to your application server:
 
 ```bash
-ngrok http 3000
+ngrok http 5000
 ```
 
 You will get a URL of the form `https://a1b2c3d4.ngrok.io` which can be loaded on a browser from a device
 different than the one where your application server is running.
-
-## Examples
-
-The project contains some use-case examples for the Twilio Video JS SDK. After running the application
-by following the instructions above, go to [http://localhost:3000/examples](http://localhost:3000/examples)
-to try them out.
